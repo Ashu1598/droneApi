@@ -2,10 +2,10 @@
   "name": "droneapi",
   "version": "1.0.0",
   "description": "",
-  "main": "app1.0.0.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node app1.0.0.js",
-    "dev": "nodemon app1.0.0.js"
+    "start": "node app",
+    "dev": "nodemon app"
   },
   "author": "Ashutosh Swain",
   "license": "ISC",
