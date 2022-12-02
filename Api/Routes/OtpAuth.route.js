@@ -31,4 +31,5 @@ router.post("/otp", (req, res) => {
     })
 })
 
+
 module.exports = router
