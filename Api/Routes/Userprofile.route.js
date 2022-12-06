@@ -2,7 +2,7 @@ const router = require("express").Router()
 const config = require('../../config/config')
 
 router.post("/User", (req, res) => {
-    const sql = "INSERT INTO User ( user_name , mobile_number, address , email ) values(?,?,?,?)"
+    const sql = "INSERT INTO User ( user_name , mobile_number, role) values(?,?,?)"
     config.dbConfig.query(
       sql,
       [
